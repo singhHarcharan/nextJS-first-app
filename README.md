@@ -1,4 +1,4 @@
-# Next.js Basic Authentication App
+# Next.js Authentication App
 
 This is a modern web application built with Next.js that implements user authentication and responsive UI components. The app features a clean, modern design with a focus on user experience.
 
