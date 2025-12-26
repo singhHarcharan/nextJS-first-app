@@ -1,9 +1,9 @@
-import Signin from "@/components/Signin";
+import SigninComponent from "@/components/SigninComponent";
 
 export default function signin() {
     return (
       <div>
-        <Signin />
+        <SigninComponent />
       </div>
     );
   }

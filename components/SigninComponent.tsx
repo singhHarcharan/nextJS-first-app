@@ -1,9 +1,9 @@
 import Button from "./Button";
 
-export default function Signin() {
+export default function SigninComponent() {
     return <div className="h-screen flex justify-center flex-col">
         <div className="flex justify-center">
-        <a href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
+        <div href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
                 <div>
                     <div className="px-10">
                         <div className="text-3xl font-extrabold">
@@ -13,10 +13,10 @@ export default function Signin() {
                     <div className="pt-2">
                         <LabelledInput label="Username" placeholder="harkirat@gmail.com" />
                         <LabelledInput label="Password" type={"password"} placeholder="123456" />
-                        <Button />
+                        <Button label={"Sign in"}/>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
 }
